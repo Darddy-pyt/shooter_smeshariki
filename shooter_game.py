@@ -252,7 +252,7 @@ while running:
                 ship.speed += 10  # Увеличение скорости на 10
                 buff_message = "Поднят бафф: Увеличение скорости"
                 print("Скорость увеличена!")
-            elif buff.image == image.load('смефна.jpg'):
+            elif buff.image == image.load('смефно.jpg'):
                 ship_protected = True
                 buff_message = "Поднят бафф: Временная защита"
                 if lost > 0:  # Уменьшение счетчика пропущенных врагов
